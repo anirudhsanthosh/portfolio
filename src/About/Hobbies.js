@@ -11,10 +11,10 @@ const list = [
       "I love to spend my free time with microcontrollers like Arduino and Esp",
     icon: <BuildIcon />,
   },
-  {
-    title: "Big fan of Anim especially Naruto and Ang",
-    icon: <CelebrationIcon />,
-  },
+  // {
+  //   title: "Big fan of Anim especially Naruto and Ang",
+  //   icon: <CelebrationIcon />,
+  // },
 ];
 
 export default function Hobbies() {

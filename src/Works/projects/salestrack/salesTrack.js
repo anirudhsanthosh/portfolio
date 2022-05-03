@@ -1,4 +1,5 @@
-import technologies from "./technologyTags";
+import technologies from "../technologyTags";
+import cardImage from "./img/salestrack_all.png";
 
 export default {
   name: "Sales track",
@@ -12,7 +13,7 @@ export default {
     "/img/projects/salestrack/5.png",
     "/img/projects/salestrack/6.png",
   ],
-  cardImage: "/img/projects/salestrack/salestrack_all.png",
+  cardImage,
   tools: [
     technologies.cordova,
     technologies.php,
@@ -21,6 +22,6 @@ export default {
     technologies.js,
     technologies.firebase,
   ],
-  live: "http://shoper.rf.gd/app/frame.html",
+  live: "http://salestrack.epizy.com/salestrack/frame.html",
   code: "https://github.com/anirudhsanthosh/safari_sales",
 };

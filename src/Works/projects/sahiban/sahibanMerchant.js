@@ -1,4 +1,6 @@
-import technologies from "./technologyTags";
+import technologies from "../technologyTags";
+import cardImage from "./img/sahiban_all_1.png";
+
 export default {
   name: "Sahiban Merchant- Ecommerce app",
   description: `made for a local supermarket, project included setting up payment gateway, stock management, management of discount coupens, order status tracking etc.`,
@@ -14,7 +16,7 @@ export default {
     "/img/projects/sahiban/sahiban_7.png",
     "/img/projects/sahiban/sahiban_8.png",
   ],
-  cardImage: "/img/projects/sahiban/sahiban_all_1.png",
+  cardImage,
   tools: [
     technologies.cordova,
     technologies.wordpress,

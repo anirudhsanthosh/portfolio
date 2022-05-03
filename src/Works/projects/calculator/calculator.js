@@ -1,4 +1,5 @@
-import technologies from "./technologyTags";
+import technologies from "../technologyTags";
+import cardImage from "./img/calculator.png";
 export default {
   name: "Calculator- Simple React app",
   description: `A very simple react app which demonstrate react hooks, state , modular design, made whithout any external libraries.`,
@@ -8,7 +9,7 @@ export default {
     "/img/projects/calculator/calculator_2.png",
     "/img/projects/calculator/calculator_3.png",
   ],
-  cardImage: "/img/projects/calculator/calculator.png",
+  cardImage,
   tools: [
     technologies.react,
     technologies.html,

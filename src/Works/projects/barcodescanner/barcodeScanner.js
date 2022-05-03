@@ -1,4 +1,5 @@
-import tech from "./technologyTags";
+import tech from "../technologyTags";
+import cardImage from "./img/barcodescanner_all.png";
 
 export default {
   name: "Barcode scanner",
@@ -11,8 +12,8 @@ export default {
     "/img/projects/barcodescanner/4.png",
     "/img/projects/barcodescanner/5.png",
   ],
-  cardImage: "/img/projects/barcodescanner/barcodescanner_all.png",
+  cardImage,
   tools: [tech.cordova, tech.php, tech.html, tech.js, tech.css],
-  live: "http://shoper.rf.gd/app/frame.html",
+  live: "http://anirudh.rf.gd/barcodeScanner/frame.html",
   code: "https://github.com/anirudhsanthosh/ultimate-barcode-scanner",
 };
