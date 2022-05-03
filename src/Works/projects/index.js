@@ -1,5 +1,5 @@
-import sahiban from "./sahiban/sahibanmerchant";
+import sahiban from "./sahiban/sahibanMerchant";
 import calculator from "./calculator/calculator";
-import salestrack from "./salesTrack/salesTrack";
-import barcodescanner from "./barcodeScanner/barcodeScanner";
+import salestrack from "./salestrack/salesTrack";
+import barcodescanner from "./barcodescanner/barcodeScanner";
 export default [sahiban, calculator, salestrack, barcodescanner];
