@@ -59,7 +59,7 @@ export default function ProjectCard({ project }) {
                   <motion.span
                     key={uuid()}
                     transition={{ delay: index * 0.2 }}
-                    initial={{ opacity: 0, x: 200 }}
+                    initial={{ opacity: 0, x: "100%" }}
                     whileInView={{ opacity: 1, x: 0 }}
                   >
                     <Image
