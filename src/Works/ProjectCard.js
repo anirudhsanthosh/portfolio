@@ -27,13 +27,23 @@ export default function ProjectCard({ project }) {
           />
         </CardMedia>
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <Typography
+            gutterBottom
+            variant="h6"
+            textAlign={"center"}
+            textTransform={"uppercase"}
+            component="div"
+          >
             {project.name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography
+            variant="body2"
+            textAlign={"start"}
+            color="text.secondary"
+          >
             {project.description}
           </Typography>
-          <Box p={2} alignContent="start">
+          <Box py={2} alignContent="start">
             <Typography variant="body1" textAlign={"start"}>
               Made with
             </Typography>

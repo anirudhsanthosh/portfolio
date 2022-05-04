@@ -3,7 +3,7 @@ import cardImage from "./img/sahiban_all_1.png";
 
 export default {
   name: "Sahiban Merchant- Ecommerce app",
-  description: `made for a local supermarket, project included setting up payment gateway, stock management, management of discount coupens, order status tracking etc.`,
+  description: `Made for a local supermarket, project included setting up payment gateway, stock management, discount coupons, order status tracking etc.`,
   tags: [technologies.cordova, technologies.wordpress, technologies.php],
   images: [
     "/img/projects/sahiban/sahiban_0.png",
